@@ -1,8 +1,8 @@
 {
   "Group": "dev.hytalemodding",
-  "Name": "First Test Plugin",
+  "Name": "DeathReplication",
   "Version": "1.0.0",
-  "Description": "Just an initial lookaround",
+  "Description": "Sends a chat message with a death message along with where the player died.",
   "Authors": [
     {
       "Name": "Red",
@@ -16,5 +16,5 @@
   "OptionalDependencies": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": false,
-  "Main": "dev.hytalemodding.ExamplePlugin"
+  "Main": "dev.hytalemodding.DeathReplication"
 }
