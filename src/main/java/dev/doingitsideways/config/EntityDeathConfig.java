@@ -1,4 +1,4 @@
-package dev.hytalemodding.config;
+package dev.doingitsideways.config;
 
 import javax.annotation.Nonnull;
 
