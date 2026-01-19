@@ -14,7 +14,7 @@ This is still a <code style="color: cyan">Work In Progress</code> and code will 
 ### Dependencies:
 - [TinyMessage](https://github.com/Zoltus/TinyMessage/)
 
-1. Download the [latest release]().
+1. Download the [latest release](https://github.com/doing-it-sideways/EntityDeathPlugin/releases).
 2.
     - For your world: Place the .jar inside `{Your Hytale Folder}/UserData/Mods`
     - For your server: Place the .jar inside `{Your Server Folder}/mods`
