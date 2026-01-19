@@ -1,7 +1,7 @@
 {
-  "Group": "dev.doingitsideways",
+  "Group": "Sideways",
   "Name": "EntityDeathPlugin",
-  "Version": "0.1.1",
+  "Version": "0.1.2",
   "Description": "Sends info about how and where players and NPCs died.",
   "Authors": [
     {

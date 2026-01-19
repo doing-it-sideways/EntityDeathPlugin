@@ -2,8 +2,11 @@ package dev.doingitsideways;
 
 import javax.annotation.Nonnull;
 
+import com.hypixel.hytale.logger.HytaleLogger;
+import com.hypixel.hytale.server.core.Message;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
+import com.hypixel.hytale.server.core.universe.Universe;
 import com.hypixel.hytale.server.core.util.Config;
 
 import dev.doingitsideways.config.EntityDeathConfig;
@@ -25,7 +28,7 @@ public class EntityDeathPlugin extends JavaPlugin {
     
     @Override
     protected void setup() {
-        super.setup();
+        HytaleLogger.getLogger().atInfo().log("Setting up EntityDeathPlugin");
         
         this.getEntityStoreRegistry().registerSystem(new EntityDeathSystem());
         config.save();
@@ -33,8 +36,10 @@ public class EntityDeathPlugin extends JavaPlugin {
 
     @Override
     protected void shutdown() {
+        var infoLog = HytaleLogger.getLogger().atInfo();
+        infoLog.log("Shutting down EntityDeathPlugin");
+        
         config.save();
-
-        super.shutdown();
+        infoLog.log("Config saved");
     }
 }

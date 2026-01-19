@@ -6,7 +6,7 @@
 
     <groupId>dev.doingitsideways</groupId>
     <artifactId>EntityDeathPlugin</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.1.2</version>
 
     <properties>
         <maven.compiler.source>25</maven.compiler.source>
