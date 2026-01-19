@@ -5,25 +5,27 @@ This is still a <code style="color: cyan">Work In Progress</code> and code will 
 
 # Contents
 - [Server Intallation Guide](#server-installation-guide)
-    - [Dependencies](#dependencies)
+- [Dependencies](#dependencies)
 - [Configuration](#configuration)
 - [Future Goals](#future-goals)
 - [Special Thanks](#special-thanks)
 
 ## Server Installation Guide
-### Dependencies:
-- [TinyMessage](https://github.com/Zoltus/TinyMessage/)
 
-1. Download the [latest release](https://github.com/doing-it-sideways/EntityDeathPlugin/releases).
-2.
-    - For your world: Place the .jar inside `{Your Hytale Folder}/UserData/Mods`
-    - For your server: Place the .jar inside `{Your Server Folder}/mods`
-3. The mod will now be usable with the default configuration, enjoy!
-4. (Optional) If you would like to change the configuration of how the mod behaves:
+1. Download all the plugins listed as [dependencies](#dependencies).
+2. Download the [latest release](https://github.com/doing-it-sideways/EntityDeathPlugin/releases).
+3.
+    - For your world: Place the dependencies' `.jar`s and this plugin's `.jar` inside `{Your Hytale Folder}/UserData/Mods`
+    - For your server: Place the dependencies' `.jar`s and this plugin's `.jar` inside `{Your Server Folder}/mods`
+4. The mod will now be usable with the default configuration, enjoy!
+5. (Optional) If you would like to change the configuration of how the mod behaves:
     - For your world: Go to `{Your Hytale Folder}/UserData/Saves/New World/mods/Sideways_EntityDeathPlugin` and edit the `EntityDeathConfig.json` file.
     - For your server: Go to `{Your Server Folder}/mods/Sideways_EntityDeathPlugin` and edit the `EntityDeathConfig.json` file.
-5. (Optional) To reload the plugin with your configuration changes, type `/plugin reload Sidways:EntityDeathPlugin`
+6. (Optional) To reload the plugin with your configuration changes, type `/plugin reload Sidways:EntityDeathPlugin`
     - Note: Reloading may not work for a singleplayer world, so simply exit and re-enter the world.
+
+### Dependencies:
+- [TinyMessage v2.0.0](https://github.com/Zoltus/TinyMessage/releases/tag/2.0.0)
 
 ## Configuration
 When the plugin is loaded on a server/world for the first time, the configuration file will be generated (see: [Server Installation Guide](#server-installation-guide), Step 4)
