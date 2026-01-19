@@ -17,19 +17,19 @@ public class EntityDeathConfig {
     public static final BuilderCodec<EntityDeathConfig> CODEC =
         BuilderCodec.builder(EntityDeathConfig.class, EntityDeathConfig::new)
         .append(new KeyedCodec<>("PlayerBroadcastToOtherPlayers", Codec.BOOLEAN),
-            (cfg, val, _) -> cfg.Player_broadcastToOtherPlayers = val ? val : cfg.Player_broadcastToOtherPlayers,
+            (cfg, val, _) -> cfg.Player_broadcastToOtherPlayers = val ? val : true,
             (cfg, _) -> cfg.Player_broadcastToOtherPlayers
         ).add()
         .append(new KeyedCodec<>("PlayerShowDeathCoordinates", Codec.BOOLEAN),
-            (cfg, val, _) -> cfg.Player_showLocation = val ? val : cfg.Player_showLocation,
+            (cfg, val, _) -> cfg.Player_showLocation = val ? val : true,
             (cfg, _) -> cfg.Player_showLocation
         ).add()
         .append(new KeyedCodec<>("NPCBroadcastDeathMessage", Codec.BOOLEAN),
-            (cfg, val, _) -> cfg.NPC_broadcastMessage = val ? val : cfg.NPC_broadcastMessage,
+            (cfg, val, _) -> cfg.NPC_broadcastMessage = val ? val : false,
             (cfg, _) -> cfg.NPC_broadcastMessage
         ).add()
         .append(new KeyedCodec<>("NPCShowDeathCoordinates", Codec.BOOLEAN),
-            (cfg, val, _) -> cfg.NPC_showLocation = val ? val : cfg.NPC_showLocation,
+            (cfg, val, _) -> cfg.NPC_showLocation = val ? val : true,
             (cfg, _) -> cfg.NPC_showLocation
         ).add()
         .build();

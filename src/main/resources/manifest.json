@@ -1,20 +1,20 @@
 {
   "Group": "dev.doingitsideways",
-  "Name": "DeathReplication",
-  "Version": "1.0.0",
+  "Name": "EntityDeathPlugin",
+  "Version": "0.1.1",
   "Description": "Sends info about how and where players and NPCs died.",
   "Authors": [
     {
-      "Name": "DoingItSideways",
-      "Email": "",
-      "Url": ""
+      "Name": "DoingItSideways"
     }
   ],
   "Website": "",
   "ServerVersion": "*",
-  "Dependencies": {},
+  "Dependencies": {
+    "Zoltus:TinyMessage": "*"
+  },
   "OptionalDependencies": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": false,
-  "Main": "dev.doingitsideways.DeathReplication"
+  "Main": "dev.doingitsideways.EntityDeathPlugin"
 }
