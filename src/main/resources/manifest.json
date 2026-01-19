@@ -2,10 +2,10 @@
   "Group": "dev.doingitsideways",
   "Name": "DeathReplication",
   "Version": "1.0.0",
-  "Description": "Sends a chat message with a death message along with where the player died.",
+  "Description": "Sends info about how and where players and NPCs died.",
   "Authors": [
     {
-      "Name": "Red",
+      "Name": "DoingItSideways",
       "Email": "",
       "Url": ""
     }
