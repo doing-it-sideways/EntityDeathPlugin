@@ -4,7 +4,7 @@ The eventual goal of this project is to provide my friends with a plugin that ca
 This is still a <code style="color: cyan">Work In Progress</code> and code will likely be split into an death notifier API plugin alongside the actual reporting plugin you see here.
 
 # Contents
-- [Server Intallation Guide](#server-installation-guide)
+- [Server Installation Guide](#server-installation-guide)
 - [Dependencies](#dependencies)
 - [Configuration](#configuration)
 - [Future Goals](#future-goals)
@@ -52,5 +52,6 @@ I would like to make this somewhat extensible and maybe split up the core tracki
 
 ## Special Thanks
 Credit to Zoltus for making [TinyMessage](https://github.com/Zoltus/TinyMessage/) and allowing me to easily format messages. Because Hytale lacks a plugin repo as of now, the library is included directly in /libs/
+
 
 Additionally, check out the [Hytale modding community](https://hytalemodding.dev/en)!
